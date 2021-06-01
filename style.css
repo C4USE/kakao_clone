@@ -1,5 +1,6 @@
 body{
     background-color: #fae100;
+    height: 800px;
 }
 .OVER{
     display: flex;
@@ -42,11 +43,17 @@ body{
 .profile_menu2{padding-top: 15px; padding-bottom: 15px;}
 .profile_menu_icon{float: right;}
 
-.friend_img img{width: 55px; height: 55px; object-fit: cover; object-position: 6px 3px; border-radius: 20px;
-background-color: rgb(10, 155, 75);}
+.friend_img img{width: 65px; height: 65px; object-fit: cover;  border-radius: 20px;}
+.friend_img1{object-position: 6px 3px; background-color: rgb(10, 155, 75)}
+.friend_img2{object-position: -2px -2px; background-color: rgb(63, 23, 209)}
+.friend_img3{object-position: 0px -8px;}
+.frinds{display:flex; margin-bottom: 20px; }
+.frinds1{margin-left: 20px;;}
+.friend_name{font-weight: bold; color: black;}
+.frind_status{font-size: 13px;}
 
-
-.footer { height: 70px; background-color: #f5f2f2; position: fixed; bottom: 0; left: 0; right: 0; }
+.footer { height: 70px; background-color: #f5f2f2; position: fixed; bottom: 0; left: 0; right: 0; 
+    text-align: center;}
 
 
 
