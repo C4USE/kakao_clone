@@ -2,6 +2,14 @@ body{
     background-color: #fae100;
     height: 800px;
 }
+ul {
+    list-style:none;
+    margin:px;
+    padding: 0;
+    padding-left: 17%;
+}
+
+a{color: black;}
 .OVER{
     display: flex;
     justify-content: center;
@@ -52,9 +60,9 @@ body{
 .friend_name{font-weight: bold; color: black;}
 .frind_status{font-size: 13px;}
 
-.footer { height: 70px; background-color: #f5f2f2; position: fixed; bottom: 0; left: 0; right: 0; 
-    text-align: center;}
-
+.footer { height: 70px; background-color: #f5f2f2; position: fixed; bottom: 0; left: 0; right: 0; }
+#main_menu{height: 70px; width: auto; font-size: 23px;}
+#main_menu ul li{float: left; width: 25%; height: 100%;}
 
 
 
