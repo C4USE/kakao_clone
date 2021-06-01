@@ -17,12 +17,40 @@ body{
     padding: 15px; text-align: center;
 }
 
-.next {display: none; font-family: 'Jua', sans-serif; }
+.next {display: none; font-family: 'Jua', sans-serif;}
 .status_bar{display: flex; justify-content: space-between; margin-bottom: 20px;}
 
-.header_title h1{margin: 0px; padding-left: 20px;} 
-.header{display: flex;  justify-content: space-between;}
+.main{padding-left: 20px; padding-right:20px;}
+.header_title h1{margin: 0px;} 
+.header{display: flex;  justify-content: space-between; margin-bottom: 25px;}
 .header_icon{font-size: 1.7em;}
+
+
+.profile_img img{
+     border-radius: 35px;
+     background-color: #4e6d86; 
+    width: 100px; height: 100px;
+    object-fit: cover;
+    object-position: 6px 3px;}
+
+.profile_main{display:flex; border-bottom: solid #a9a9a9 1px; padding-bottom: 20px;}
+.profile{margin-left: 20px;}
+.profile_name{ font-weight: bold; font-size: 24px;} 
+
+.profile_menus{color:#6d6a6a;}
+.profile_menu1{border-bottom: solid #a9a9a9 1px; padding-top: 15px; padding-bottom: 15px;}
+.profile_menu2{padding-top: 15px; padding-bottom: 15px;}
+.profile_menu_icon{float: right;}
+
+.friend_img img{width: 55px; height: 55px; object-fit: cover; object-position: 6px 3px; border-radius: 20px;
+background-color: rgb(10, 155, 75);}
+
+
+.footer { height: 70px; background-color: #f5f2f2; position: fixed; bottom: 0; left: 0; right: 0; }
+
+
+
+
 
 @media (max-width:500px){
     body{background-color: white;}
