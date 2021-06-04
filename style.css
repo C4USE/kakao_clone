@@ -30,8 +30,10 @@ a{color: black;}
 .status_bar{display: flex; justify-content: space-between; margin-bottom: 20px;}
 
 .main{padding-left: 20px; padding-right:20px;}
+
+.header{margin-top: 25px;}
 .header_title h1{margin: 0px;} 
-.header{display: flex;  justify-content: space-between; margin-bottom: 25px;}
+.header{display: flex;  justify-content: space-between; margin-bottom: 25px; }
 .header_icon{font-size: 1.7em;}
 
 
@@ -61,6 +63,8 @@ a{color: black;}
 .frind_status{font-size: 13px;}
 
 .footer { height: 70px; background-color: #f5f2f2; position: fixed; bottom: 0; left: 0; right: 0; }
+.status_bar { height: 25px; background-color: #e4e4e4; position: fixed; top: 0; left: 0; right: 0; }
+
 
 #main_menu{height: 70px; width: auto; font-size: 23px;}
 #main_menu ul li{float: left; width: 25%; height: 100%;}
